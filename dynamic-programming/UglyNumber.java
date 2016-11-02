@@ -33,10 +33,10 @@ public class UglyNumber {
 	}
 
 	public static void main(String[] args) {
-		for(int n = 1;n<151; n++){
-		int no = getNthUglyNo(n);
-		System.out.println(n+"th Ugly Number is "+no);
-		}
+		
+		int no = getNthUglyNo(150);
+		System.out.println("150th Ugly Number is "+no);
+		
 	}
 
 }
