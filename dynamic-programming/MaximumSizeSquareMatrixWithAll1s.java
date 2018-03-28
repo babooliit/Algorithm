@@ -4,11 +4,11 @@ public class MaximumSizeSquareMatrixWithAll1s {
 	public static void main(String[] args) {
 
 		int M[][] =  {{0, 1, 1, 0, 1},        		
-				      {1, 1, 0, 1, 0},        
-				      {0, 1, 1, 1, 0},        
-				      {1, 1, 1, 1, 0},        
-				      {1, 1, 1, 1, 1},        
-				      {0, 0, 0, 0, 0}};
+			      {1, 1, 0, 1, 0},        
+			      {0, 1, 1, 1, 0},        
+			      {1, 1, 1, 1, 0},        
+			      {1, 1, 1, 1, 1},        
+			      {0, 0, 0, 0, 0}};
     
         System.out.println("The maximum size of Square matrix with all 1s is "+ maxSubSquare(M));
 	}
